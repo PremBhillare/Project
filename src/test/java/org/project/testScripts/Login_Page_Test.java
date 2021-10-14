@@ -25,6 +25,7 @@ public class Login_Page_Test extends Testbase{
 		String password=prop.getProperty("password");
 		loginpage.login(username,password);
 		
+		
 	}
 	@AfterMethod
 	public void teardown()
